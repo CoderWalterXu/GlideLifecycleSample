@@ -1,6 +1,6 @@
 # GlideLifecycleSample
 
-根据Glide使用空Fragment监听Activity生命周期的原理，对项目中的身份证识别进行重构
+根据Glide使用空Fragment监听Activity生命周期的原理，配合策略模式，对项目中的身份证识别进行重构
 
 ## 策略模式优化各种扫身份证
 使用策略模式，抽象各种扫身份证实现的IIDCardScan接口
