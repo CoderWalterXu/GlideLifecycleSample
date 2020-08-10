@@ -241,7 +241,7 @@ public class IDCardScanManager implements LifeCycleListener {
     }
 
     /**
-     * 创建Fragment 并依托于当前Activity(当然Glide做了缓存去重操作)
+     * 创建Fragment 并依托于当前Activity
      * @param fragmentManager
      */
     private void supportFragmentGet(FragmentManager fragmentManager) {
